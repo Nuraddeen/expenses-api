@@ -1,0 +1,47 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/expenses-api_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRoutes$anon$importedEncoder$macro$35$1$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRoutes$anon$importedEncoder$macro$35$1$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/DbContext.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/DbContext.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRoutes$anon$importedEncoder$macro$35$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRoutes$anon$importedEncoder$macro$35$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/Expense$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/Expense$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRepository$$anon$2$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRepository$$anon$2$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRoutes$anon$importedEncoder$macro$35$1$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRoutes$anon$importedEncoder$macro$35$1$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRepository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRepository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRepository$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRepository$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRoutes$anon$importedDecoder$macro$11$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRoutes$anon$importedDecoder$macro$11$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRepository$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRepository$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRoutes$anon$importedDecoder$macro$11$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRoutes$anon$importedDecoder$macro$11$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/DbContext$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/DbContext$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRoutes$anon$importedEncoder$macro$35$1$anon$macro$33$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRoutes$anon$importedEncoder$macro$35$1$anon$macro$33$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRepository$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRepository$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRoutes$anon$importedDecoder$macro$11$1$anon$macro$9$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRoutes$anon$importedDecoder$macro$11$1$anon$macro$9$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/ExpenseRoutes$anon$importedDecoder$macro$11$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/ExpenseRoutes$anon$importedDecoder$macro$11$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	content/Expense.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/content/Expense.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/Expenses-API/target/scala-2.13/classes/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

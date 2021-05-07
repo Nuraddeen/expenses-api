@@ -1,0 +1,15 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/Expenses-API/src/main/scala/Server.scala:18:23: not found: value ExpenseRepository[0m
+[0m[[0m[31merror[0m] [0m[0m    val expenseRepo = ExpenseRepository()[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/Expenses-API/src/main/scala/Server.scala:30:35: value seconds is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    Await.result(bindingFuture, 2.seconds)[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/Expenses-API/src/main/scala/repos/ExpenseRepository.scala:8:29: Can't find an implicit `SchemaMeta` for type `models.Expense`[0m
+[0m[[0m[31merror[0m] [0m[0m  val expenses = quote(query[Expense])[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/Expenses-API/src/main/scala/routes/ExpenseRoutes.scala:27:36: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : io.getquill.mirrorContextWithQueryProbing.QueryMirror[models.Expense][0m
+[0m[[0m[31merror[0m] [0m[0m required: akka.http.scaladsl.marshalling.ToResponseMarshallable[0m
+[0m[[0m[31merror[0m] [0m[0m        complete(expenseRepo.getAll())[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

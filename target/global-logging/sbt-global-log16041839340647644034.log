@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.9 (Oracle Corporation Java 14.0.1)
+[debug]       Load.loadUnit: plugins took 270.408161ms
+[debug]       Load.loadUnit: defsScala took 1.876254ms
+[debug] [Loading] Scanning directory /Users/apple/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/apple/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 94.861213 ms
+[debug]           Load.resolveProject(global-plugins) took 188.327073ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/apple/.sbt/1.0/plugins, plugins: List(<none>))) took 367.326834ms
+[debug] [Loading] Done in /Users/apple/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 436.921184ms
+[debug]       Load.loadUnit: cleanEvalClasses took 1.676591ms
+[debug]     Load.loadUnit(file:/Users/apple/.sbt/1.0/plugins/, ...) took 748.753065ms
+[debug]   Load.apply: load took 1518.372308ms
+[debug]   Load.apply: resolveProjects took 48.800999ms
+[debug]   Load.apply: finalTransforms took 259.750324ms
+[debug]   Load.apply: config.delegates took 21.156171ms
+[debug]   Load.apply: Def.make(settings)... took 1229.154127ms
+[debug]   Load.apply: structureIndex took 371.3443ms
+[debug]   Load.apply: mkStreams took 4.809173ms
+[info] loading global plugins from /Users/apple/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 7799.185873ms
+[debug]           Load.loadUnit: plugins took 69.599791ms
+[debug]           Load.loadUnit: defsScala took 0.014609ms
+[debug] [Loading] Scanning directory /Users/apple/Documents/My Scala Projects/Expenses-API/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/apple/Documents/My Scala Projects/Expenses-API/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 6.611412 ms
+[debug]               Load.resolveProject(expenses-api-build) took 3.802146ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id expenses-api-build, base: /Users/apple/Documents/My Scala Projects/Expenses-API/project, plugins: List(<none>))) took 12.886471ms
+[debug] [Loading] Done in /Users/apple/Documents/My Scala Projects/Expenses-API/project, returning: (expenses-api-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 21.781789ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.098647ms
+[debug]         Load.loadUnit(file:/Users/apple/Documents/My%20Scala%20Projects/Expenses-API/project/, ...) took 95.582617ms
+[debug]       Load.apply: load took 100.215021ms
+[debug]       Load.apply: resolveProjects took 1.012227ms
+[debug]       Load.apply: finalTransforms took 94.161804ms
+[debug]       Load.apply: config.delegates took 1.161376ms
+[debug]       Load.apply: Def.make(settings)... took 341.281173ms
+[debug]       Load.apply: structureIndex took 108.390309ms
+[debug]       Load.apply: mkStreams took 0.00514ms
+[info] loading project definition from /Users/apple/Documents/My Scala Projects/Expenses-API/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1125.173082ms
+[debug]     Load.loadUnit: defsScala took 0.020519ms
+[debug] [Loading] Scanning directory /Users/apple/Documents/My Scala Projects/Expenses-API
+[debug]       Load.loadUnit: mkEval took 20.700592ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/apple/Documents/My Scala Projects/Expenses-API, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.205161 ms
+[info] loading settings for project expenses-api from build.sbt ...
+[debug]         Load.resolveProject(expenses-api) took 5.627265ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id expenses-api, base: /Users/apple/Documents/My Scala Projects/Expenses-API, plugins: List(<none>))) took 11.060715ms
+[debug] [Loading] Done in /Users/apple/Documents/My Scala Projects/Expenses-API, returning: (expenses-api)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4792.045878ms
+[debug]     Load.loadUnit: cleanEvalClasses took 16.624175ms
+[debug]   Load.loadUnit(file:/Users/apple/Documents/My%20Scala%20Projects/Expenses-API/, ...) took 5935.872331ms
+[debug] Load.apply: load took 5939.38729ms
+[debug] Load.apply: resolveProjects took 0.25086ms
+[debug] Load.apply: finalTransforms took 17.81826ms
+[debug] Load.apply: config.delegates took 0.643034ms
+[debug] Load.apply: Def.make(settings)... took 278.277107ms
+[debug] Load.apply: structureIndex took 71.450107ms
+[debug] Load.apply: mkStreams took 0.006721ms
+[info] set current project to Expenses-API (in build file:/Users/apple/Documents/My%20Scala%20Projects/Expenses-API/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/apple/.sbt/1.0/server/ac7e785c41c6098df1b5/sock
+[info] started sbt server
