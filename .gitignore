@@ -1,5 +1,5 @@
 # Default ignored files
-./.idea
-./.bsp
+.idea
+.bsp
 *.DS_Store
-*.eml 
+*.eml

@@ -1,11 +1,13 @@
 package repos
 
 import models.Expense
+import database.DbContext.ctx
+import  ctx._
 /**
  * This class acts as repository for expenses.
  * It performs basic db operations on expenses, such as saving and retrieving
  */
-case class ExpenseRepository  {
+case class ExpenseRepository () {
   val expenses = quote(query[Expense])
 
 
