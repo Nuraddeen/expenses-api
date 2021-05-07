@@ -13,11 +13,11 @@ This is an api for creating and viewing expenses.
 
 #1 clone the repo
 
-  $ git clone https://github.com/Nuraddeen/expense-api
+  $ git clone https://github.com/Nuraddeen/expenses-api
 
 #2 open the directory
 
-  $ cd expense-api
+  $ cd expenses-api
 
 #3 build and run the app
 
