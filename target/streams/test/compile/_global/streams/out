@@ -1,0 +1,105 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:3:8: object FlatSpec is not a member of package org.scalatest[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean flatspec?[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.{ FlatSpec, BeforeAndAfterAll }[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:7:8: object MustMatchers is not a member of package org.scalatest.matchers[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.MustMatchers[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:20:23: not found: type FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass ApiSpec extends FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:21:8: not found: type MustMatchers[0m
+[0m[[0m[31merror[0m] [0m[0m  with MustMatchers[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:24:8: not found: type RestApi[0m
+[0m[[0m[31merror[0m] [0m[0m  with RestApi {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:26:10: not found: value TweetProtocol[0m
+[0m[[0m[31merror[0m] [0m[0m  import TweetProtocol._[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:27:10: not found: value TweetEntity[0m
+[0m[[0m[31merror[0m] [0m[0m  import TweetEntity._[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:28:10: not found: value TweetEntityProtocol[0m
+[0m[[0m[31merror[0m] [0m[0m  import TweetEntityProtocol.EntityFormat[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:33:5: not found: value TweetManager[0m
+[0m[[0m[31merror[0m] [0m[0m    TweetManager.collection.drop()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:36:16: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "The Server" should "return Ok response when get all tweets" in {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:37:17: not found: value Tweet[0m
+[0m[[0m[31merror[0m] [0m[0m    val tweet = Tweet("akka", "Hello World")[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:38:13: not found: value TweetManager[0m
+[0m[[0m[31merror[0m] [0m[0m    val f = TweetManager.save(TweetEntity.toTweetEntity(tweet))[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:38:31: not found: value TweetEntity[0m
+[0m[[0m[31merror[0m] [0m[0m    val f = TweetManager.save(TweetEntity.toTweetEntity(tweet))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:39:9: not found: value Created[0m
+[0m[[0m[31merror[0m] [0m[0m    val Created(id) = Await.result(f, 1.second)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:41:23: not found: value route[0m
+[0m[[0m[31merror[0m] [0m[0m    Get("/tweets") ~> route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:42:14: value must is not a member of akka.http.scaladsl.model.StatusCode[0m
+[0m[[0m[31merror[0m] [0m[0m      status must equal(StatusCodes.OK)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:42:19: not found: value equal[0m
+[0m[[0m[31merror[0m] [0m[0m      status must equal(StatusCodes.OK)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:43:33: not found: type TweetEntity[0m
+[0m[[0m[31merror[0m] [0m[0m      val res = responseAs[List[TweetEntity]][0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:49:3: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m  it should "return created response when create new tweet" in {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:50:21: not found: value Tweet[0m
+[0m[[0m[31merror[0m] [0m[0m    Post("/tweets", Tweet("akka", "hello world")) ~> route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:50:54: not found: value route[0m
+[0m[[0m[31merror[0m] [0m[0m    Post("/tweets", Tweet("akka", "hello world")) ~> route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:51:14: value must is not a member of akka.http.scaladsl.model.StatusCode[0m
+[0m[[0m[31merror[0m] [0m[0m      status must equal(StatusCodes.Created)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:51:19: not found: value equal[0m
+[0m[[0m[31merror[0m] [0m[0m      status must equal(StatusCodes.Created)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:55:3: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m  it should "return No Content response when delete a tweet" in {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:56:17: not found: value Tweet[0m
+[0m[[0m[31merror[0m] [0m[0m    val tweet = Tweet("akka", "hello world")[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:57:13: not found: value TweetManager[0m
+[0m[[0m[31merror[0m] [0m[0m    val f = TweetManager.save(TweetEntity.toTweetEntity(tweet))[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:57:31: not found: value TweetEntity[0m
+[0m[[0m[31merror[0m] [0m[0m    val f = TweetManager.save(TweetEntity.toTweetEntity(tweet))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:58:9: not found: value Created[0m
+[0m[[0m[31merror[0m] [0m[0m    val Created(id) = Await.result(f, 1.second)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:65:3: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m  it should "return Ok response when get a tweet" in {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:66:23: not found: value TweetEntity[0m
+[0m[[0m[31merror[0m] [0m[0m    val tweetEntity = TweetEntity.toTweetEntity(Tweet("akka", "hello world"))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:66:49: not found: value Tweet[0m
+[0m[[0m[31merror[0m] [0m[0m    val tweetEntity = TweetEntity.toTweetEntity(Tweet("akka", "hello world"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:67:13: not found: value TweetManager[0m
+[0m[[0m[31merror[0m] [0m[0m    val f = TweetManager.save(tweetEntity)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:68:9: not found: value Created[0m
+[0m[[0m[31merror[0m] [0m[0m    val Created(id) = Await.result(f, 1.second)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/test/scala/expense/APISpec.scala:32:16: method without a parameter list overrides a method with a single empty one[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def afterAll {[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m33 errors found[0m
