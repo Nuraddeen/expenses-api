@@ -17,8 +17,7 @@ object Server {
     // needed for the future flatMap/onComplete in the end
     implicit val executionContext = system.executionContext
 
-    val expenseRepo = ExpenseRepository()
-    val expenseRoutes = new ExpenseRoutes(expenseRepo).route
+    val expenseRoutes = new ExpenseRoutes(ExpenseRepository()).route
 
     val bindingFuture = Http().newServerAt("localhost", 8080).bind(expenseRoutes)
 
