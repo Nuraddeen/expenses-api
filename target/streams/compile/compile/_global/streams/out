@@ -1,6 +1,13 @@
-[0m[[0m[0minfo[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/main/scala/repos/ExpenseRepository.scala:18:37: SELECT x.date, x.value, x.reason FROM expense x[0m
-[0m[[0m[0minfo[0m] [0m[0m  def getAll(): List[Expense] = run {[0m
-[0m[[0m[0minfo[0m] [0m[0m                                    ^[0m
-[0m[[0m[0minfo[0m] [0m[0m/Users/apple/Documents/My Scala Projects/expenses-api/src/main/scala/repos/ExpenseRepository.scala:27:44: INSERT INTO expense (date,value,reason) VALUES (?, ?, ?)[0m
-[0m[[0m[0minfo[0m] [0m[0m  def create(expense: Expense): Long = run {[0m
-[0m[[0m[0minfo[0m] [0m[0m                                           ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/nuram/Documents/Nura MB/Scala Projects/expenses-api/src/main/scala/repos/ExpenseRepository.scala:25:9: SELECT x.date, x.value, x.reason FROM expense x[0m
+[0m[[0m[0minfo[0m] [0m[0m    run {[0m
+[0m[[0m[0minfo[0m] [0m[0m        ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/nuram/Documents/Nura MB/Scala Projects/expenses-api/src/main/scala/repos/ExpenseRepository.scala:35:9: INSERT INTO expense (date,value,reason) VALUES (?, ?, ?)[0m
+[0m[[0m[0minfo[0m] [0m[0m    run {[0m
+[0m[[0m[0minfo[0m] [0m[0m        ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/nuram/Documents/Nura MB/Scala Projects/expenses-api/src/main/scala/repos/ExpenseRepository.scala:40:9: SELECT ex.date, ex.value, ex.reason FROM expense ex WHERE ex.reason = ? AND ex.date = ? AND ex.value = ?[0m
+[0m[[0m[0minfo[0m] [0m[0m    run {[0m
+[0m[[0m[0minfo[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nuram/Documents/Nura MB/Scala Projects/expenses-api/src/main/scala/repos/ExpenseRepository.scala:52:35: Tree 'scala.Predef.augmentString(x$1.date).>=((database.DbContext.ctx.liftScalar[String](expSearch.dateFrom)(scala.Predef.implicitly[database.DbContext.ctx.Encoder[String]](database.DbContext.ctx.stringEncoder)): String))' can't be parsed to 'Ast'[0m
+[0m[[0m[31merror[0m] [0m[0m      quote(query[Expense]).filter(_.date >= (lift(expSearch.dateFrom)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

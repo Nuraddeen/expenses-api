@@ -1,53 +1,63 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/expenses-api_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/expenses-api_2.13-1.0.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	database[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/database[0m
-[0m[[0m[0mdebug[0m] [0m[0m	database/DbContext.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/database/DbContext.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	database/DbContext$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/database/DbContext$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	repos[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/repos[0m
-[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository$$anon$2$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository$$anon$2$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Server$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/Server$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Server.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/Server.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	models[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/models[0m
-[0m[[0m[0mdebug[0m] [0m[0m	models/Expense$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/models/Expense$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	models/Expense.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/models/Expense.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/application.conf[0m
 [0m[[0m[0mdebug[0m] [0m[0m	routes[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/routes[0m
-[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedEncoder$macro$35$1$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedEncoder$macro$35$1$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedEncoder$macro$35$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedEncoder$macro$35$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedEncoder$macro$35$1$$anon$4.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedEncoder$macro$35$1$$anon$4.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedDecoder$macro$11$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$11$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/routes[0m
 [0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedDecoder$macro$11$1$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$11$1$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedEncoder$macro$35$1$anon$macro$33$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedEncoder$macro$35$1$anon$macro$33$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$11$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedDecoder$macro$11$1$anon$macro$9$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$11$1$anon$macro$9$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$11$1$anon$macro$9$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedDecoder$macro$11$1$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/apple/Documents/My Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$11$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$11$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedDecoder$macro$25$1$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$25$1$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedDecoder$macro$25$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$25$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedDecoder$macro$11$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$11$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedDecoder$macro$25$1$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$25$1$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes/ExpenseRoutes$anon$importedDecoder$macro$25$1$anon$macro$23$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/routes/ExpenseRoutes$anon$importedDecoder$macro$25$1$anon$macro$23$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/Expense$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/models/Expense$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/ExpenseSearch.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/models/ExpenseSearch.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/Expense.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/models/Expense.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/ExpenseSearch$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/models/ExpenseSearch$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	database[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/database[0m
+[0m[[0m[0mdebug[0m] [0m[0m	database/DbContext$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/database/DbContext$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	database/DbContext.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/database/DbContext.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	repos[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/repos[0m
+[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository$$anon$3$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository$$anon$3$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository$$anon$5$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository$$anon$5$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	repos/ExpenseRepository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/repos/ExpenseRepository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nuram/Documents/Nura MB/Scala Projects/expenses-api/target/scala-2.13/classes/Server.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

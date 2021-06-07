@@ -1,6 +1,8 @@
 import akka.actor.typed.ActorSystem
 import akka.actor.typed.scaladsl.Behaviors
 import akka.http.scaladsl.Http
+import akka.http.scaladsl.server.Directives.failWith
+import models._
 import repos.ExpenseRepository
 import routes.ExpenseRoutes
 
@@ -17,7 +19,9 @@ object Server {
     // needed for the future flatMap/onComplete in the end
     implicit val executionContext = system.executionContext
 
-    val expenseRoutes = new ExpenseRoutes(ExpenseRepository()).route
+    val expenseRepo = ExpenseRepository()
+
+    val expenseRoutes = new ExpenseRoutes(expenseRepo).route
 
     val bindingFuture = Http().newServerAt("localhost", 8080).bind(expenseRoutes)
 
@@ -29,6 +33,13 @@ object Server {
     }
 
     Await.result(bindingFuture, 2.seconds)
-  }
+
+
+  //  val exp = Expense("2021-09-23", 2000, "Transport")
+    // println(expenseRepo.find(exp).nonEmpty)
+
+   //  println(new ExpenseSearch("", "", 0, 0).defaultDateTo)
+    // println(new ExpenseSearch("", "", 0, 0).defaultDateFrom)
+    }
 
 }

@@ -3,3 +3,6 @@
 .bsp
 *.DS_Store
 *.eml
+*.class
+*.log
+*.cache
